@@ -29,7 +29,10 @@ Using RNN and tensorflow APIs:
 -----------------------------------------------------------------------------
 
 Download project on local machine
+
 You may upload rap.py into Google Colab for better performance
+
+Need latest version of Python
 
 -----------------------------------------------------------------------------
 
@@ -49,6 +52,6 @@ take resulting 'name'_trained_output from Google Colab
 
 drag into trained_output/ local folder
 
-CLI: python Convert.py , follow instructions on command prompt
+Command Line: python Convert.py , follow instructions on command prompt
 
 final lyric output will be in final_output/ local folder
