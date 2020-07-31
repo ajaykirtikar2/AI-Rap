@@ -38,8 +38,11 @@ How to run:
 Command Line: python LyricScrape.py , follow instructions on command prompt
 
 grab untrained file in untrained_data/ local folder
+
 drag into Google Colab with rap.py
+
 make sure runtime is type GPU!
+
 run rap.py in Google Colab
 
 take resulting 'name'_trained_output from Google Colab
