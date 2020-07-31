@@ -3,18 +3,22 @@ Lyric Classifier using Tensor Flow RNN
 
 @Author: Ajay Kirtikar
 
-Based off of TensorFlow RNN tutorial: https://www.tensorflow.org/tutorials/text/text_generation
+Based off of TensorFlow RNN tutorial: https://www.tensorflow.org/tutorials/text/text_generation 
+
 As well as John Fish's python implementation shakespeare_ai: https://github.com/johnafish/shakespeare_ai
+
 -----------------------------------------------------------------------------
+
 Fun Project that takes lyrics from any artist and sends to a RNN, 
 which then predicts an output based on character classifications
------------------------------------------------------------------------------
 idea: have AI create its own music lyrics based on real artists
+
 -----------------------------------------------------------------------------
 
 Description:  
 
 Using RNN and tensorflow APIs:
+
     - grab lyrics from lyrics.com
     - filter the lyrics and remove duplicates
     - upload the lyrics to rap.py in Google Colab
@@ -31,15 +35,17 @@ You may upload rap.py into Google Colab for better performance
 
 How to run:
 
-CLI: python LyricScrape.py , follow instructions on command prompt
+Command Line: python LyricScrape.py , follow instructions on command prompt
 
 grab untrained file in untrained_data/ local folder
 drag into Google Colab with rap.py
 make sure runtime is type GPU!
-run rap.py
+run rap.py in Google Colab
 
+take resulting 'name'_trained_output from Google Colab
 
-take resulting 'name'_trained_output from Google Colab and drag into trained_output/ local folder
+drag into trained_output/ local folder
+
 CLI: python Convert.py , follow instructions on command prompt
 
 final lyric output will be in final_output/ local folder
